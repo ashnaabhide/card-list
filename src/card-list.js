@@ -18,16 +18,16 @@ export class CardList extends LitElement {
   render() {
     return html`
      <meme-card-ashnaa></meme-card-ashnaa>
-     <meme-card-ashnaa></meme-card-ashnaa>
-     <meme-card-ashnaa></meme-card-ashnaa>
+     <meme-card-ashnaa name="dog"></meme-card-ashnaa>
+     <meme-card-ashnaa name="NOSE" top="king" bottom="dog"></meme-card-ashnaa>
      <meme-card-ashnaa></meme-card-ashnaa>
      <meme-card-ashnaa></meme-card-ashnaa>
 
     
      
      <meme-card-2></meme-card-2>
-     <meme-card-2></meme-card-2>
-     <meme-card-2></meme-card-2>
+     <meme-card-2 name=top></meme-card-2>
+     <meme-card-2 name=top top=omg></meme-card-2>
      <meme-card-2></meme-card-2>
      <meme-card-2></meme-card-2>
 
